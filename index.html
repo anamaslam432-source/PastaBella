@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Pasta Bella</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Segoe UI',sans-serif;background:#0f141f;color:white}
+nav{display:flex;justify-content:space-between;padding:20px 50px;align-items:center}
+nav .logo{font-size:22px;font-weight:700;letter-spacing:1px}
+nav .links a{color:#aab0c0;text-decoration:none;margin-left:25px;font-size:14px;letter-spacing:1px}
+nav .links a.active, nav .links a:hover{color:white}
+.hero{position:relative;height:85vh;display:flex;align-items:center;padding-left:70px;overflow:hidden;background: linear-gradient(90deg, #0f141f 55%, rgba(15,20,31,0.1) 100%), url('https://images.unsplash.com/photo-1551183053-bf91a1d81141?q=80&w=1200');background-size:cover;background-position:right;}
+.top-text{font-size:10px;letter-spacing:4px;color:#c9a88a;margin-bottom:20px}
+.hero h1{font-size:58px;line-height:1.1;font-weight:800}
+.hero h1 span{color:#e5b896;font-style:italic;font-weight:400}
+.hero p{color:#aab0c0;margin-top:18px;max-width:420px;line-height:1.6;font-size:14px}
+.hero button{margin-top:25px;background:#e5b896;color:#2b1d15;border:none;padding:10px 22px;border-radius:25px;font-weight:600;cursor:pointer}
+.hero button:hover{background:#f0d0a8}
+</style>
+</head>
+<body>
+<nav>
+<div class="logo">Pasta Bella</div>
+<div class="links">
+<a href="/" class="active">Home</a>
+<a href="/menu">Menu</a>
+<a href="/about">About</a>
+<a href="/contact">Contact</a>
+</div>
+</nav>
+<div class="hero">
+<div>
+<div class="top-text">FRESH • AUTHENTIC • DELICIOUS</div>
+<h1>Taste the Perfect<br><span>Pasta</span></h1>
+<p>Fresh ingredients, homemade sauces and authentic Italian flavors prepared with love.</p>
+<a href="/menu"><button>Explore Our Menu →</button></a>
+</div>
+</div>
+</body>
+</html>

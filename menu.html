@@ -1,0 +1,206 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pasta Bella | Menu</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #fffaf5;
+            color: #2d211b;
+        }
+
+        header {
+            background-color: white;
+            padding: 20px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+        }
+
+        .logo {
+            font-size: 28px;
+            font-weight: bold;
+            color: #9b2c2c;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #333;
+            margin-left: 30px;
+            font-size: 16px;
+        }
+
+        nav a:hover {
+            color: #9b2c2c;
+        }
+
+        .menu {
+            padding: 60px 8%;
+            text-align: center;
+        }
+
+        .menu h1 {
+            font-size: 45px;
+            color: #9b2c2c;
+            margin-bottom: 10px;
+        }
+
+        .menu > p {
+            color: #777;
+            margin-bottom: 40px;
+        }
+
+        .cards {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background-color: white;
+            width: 280px;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+        }
+
+        .card img {
+            width: 100%;
+            height: 190px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .card h2 {
+            margin: 15px 0 8px;
+        }
+
+        .card p {
+            color: #777;
+            line-height: 1.5;
+        }
+
+        .price {
+            display: block;
+            color: #9b2c2c;
+            font-size: 20px;
+            font-weight: bold;
+            margin-top: 12px;
+        }
+
+        footer {
+            background-color: #17110e;
+            color: white;
+            text-align: center;
+            padding: 25px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+
+        <div class="logo">Pasta Bella</div>
+
+        <nav>
+            <a href="/">Home</a>
+            <a href="/menu">Menu</a>
+            <a href="/about">About</a>
+            <a href="/contact">Contact</a>
+        </nav>
+
+    </header>
+
+
+    <section class="menu">
+
+        <h1>Our Pasta Menu</h1>
+
+        <p>Choose your favorite pasta and enjoy our delicious flavors.</p>
+
+
+        <div class="cards">
+
+            <div class="card">
+
+                <img src="https://images.unsplash.com/photo-1645112411341-6c4fd023714a?auto=format&fit=crop&w=600&q=80">
+
+                <h2>Chicken Alfredo</h2>
+
+                <p>
+                    Creamy Alfredo sauce with tender chicken and fresh pasta.
+                </p>
+
+                <span class="price">$12.99</span>
+
+            </div>
+
+
+            <div class="card">
+
+                <img src="https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?auto=format&fit=crop&w=600&q=80">
+
+                <h2>Italian Pasta</h2>
+
+                <p>
+                    Classic Italian pasta prepared with rich tomato sauce.
+                </p>
+
+                <span class="price">$10.99</span>
+
+            </div>
+
+
+            <div class="card">
+
+                <img src="https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=crop&w=600&q=80">
+
+                <h2>Creamy Special</h2>
+
+                <p>
+                    Our special creamy pasta with herbs and delicious flavors.
+                </p>
+
+                <span class="price">$13.99</span>
+
+            </div>
+
+
+            <div class="card">
+
+                <img src="https://images.unsplash.com/photo-1551183053-bf91a1d81141?auto=format&fit=crop&w=600&q=80">
+
+                <h2>Tomato Pasta</h2>
+
+                <p>
+                    Fresh pasta with delicious tomato sauce and Italian herbs.
+                </p>
+
+                <span class="price">$11.99</span>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <footer>
+        <p>© 2026 Pasta Bella. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
